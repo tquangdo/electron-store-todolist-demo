@@ -25,12 +25,12 @@
 	npm install electron-store
 	```
 	- add `// ~~~~~~~~ start(end)` code in `src/renderer/App.tsx`, `src/main/preload.ts` & `src/main/main.ts`
-	![store](screenshots/store.png)
+	![store](screenshot/store.png)
 	- run `npm start`
-	![run](screenshots/run.png)
+	![run](screenshot/run.png)
 	- json data will auto be saved in `/Users/do.tranquang/Library/Application Support/Electron/config.json`
 1. ### build package
 	```shell
 	npm run package
 	```
-	![build](screenshots/build.png)
+	![build](screenshot/build.png)
